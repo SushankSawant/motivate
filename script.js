@@ -33,11 +33,11 @@ var quote = [
 ];
 
 var quoteBox = document.getElementById("quote");
-quoteBox.innerHTML =`“ ${quote[Math.floor(Math.random() * (quote.length + 1))]} 	”`;
+quoteBox.innerHTML =`“ ${quote[Math.floor(Math.random() * (quote.length + 1))]} ”`;
 let index = 0;
 
 function newQ() {
-  quoteBox.innerText =`“ ${quote[Math.floor(Math.random() * (quote.length + 1))]} 	”`;
+  quoteBox.innerText =`“ ${quote[Math.floor(Math.random() * (quote.length + 1))]} ”`;
 }
 
 console.log(quote.length);
